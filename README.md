@@ -133,7 +133,7 @@ The table below shows the hand gestures and the actions they trigger on YouTube.
 
 <ol>
   <li>
-    <b>Data Exploration</b>  
+    <b><a href="DataExploration&Extraction.ipynb">Data Exploration</a></b>
     <ul>
       <li>Explore class distribution of training and validation data.
       <br>Training data:<img src="assets/class_dist_train.png" alt="class_distribution_train">
@@ -141,19 +141,19 @@ The table below shows the hand gestures and the actions they trigger on YouTube.
     </ul>
   </li>
   <li>
-    <b>Data Extraction</b> 
+    <b><a href="DataExploration&Extraction.ipynb">Data Extraction</a></b> 
     <ul>
       <li>Extract training and validation data of the selected classes from the dataset.</li>
     </ul>
   </li>
   <li>
-    <b>Hyperparameter Tuning</b> 
+    <b><a href="HyperparameterTuning.ipynb">Hyperparameter Tuning</a></b> 
     <ul>
       <li>Perform grid search to determine the optimal values for dropout and learning rate.</li>
     </ul>
   </li>
   <li>
-    <b>Model Training</b> 
+    <b><a href="Training.ipynb">Model Training</a></b> 
     <ul>
       <!-- <li>Set parameters such as number of frames of each videos to be used, input shape of the frames, batch size and number of epochs.</li> -->
       <li>Build a 3D ResNet-101 model with the optimal hyperparameters.</li>
@@ -171,7 +171,7 @@ The table below shows the hand gestures and the actions they trigger on YouTube.
     </ul>
   </li> -->
   <li>
-    <b>Classification</b> 
+    <b><a href="Classification.ipynb">Classification</a></b> 
     <ul>
       <li>Read frames from the webcam, predict the hand gestures in the frames using the model and send the corresponding keystrokes to trigger actions on the computer.</li>
     </ul>
